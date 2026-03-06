@@ -60,6 +60,14 @@ v1=Voiture("A364",2021,"toyota",1500)
 v2=Voiture("A124",2024,"BMW",1800)
 v3=Voiture("C154",2023,"Ford",1600)
 
+#affichage des objets crees
+e1.afficher_informations()
+e2.afficher_informations()
+e3.afficher_informations()
+v1.afficher_informations_voiture()
+v2.afficher_informations_voiture()
+v3.afficher_informations_voiture()
+
 
 
 
