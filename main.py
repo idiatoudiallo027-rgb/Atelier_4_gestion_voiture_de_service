@@ -51,6 +51,15 @@ class Voiture:
             print("chauffeur:")
             print(f"{self.chauffeur.nom}  {self.chauffeur.prenom}")
 
+#creation des instances (objets) voiture et employe
+e1=Employe("A12500","Diallo","Thierno")
+e2=Employe("A12550","July","Kiassi")
+e3=Employe("B12590","Saliou","Martin")
+
+v1=Voiture("A364",2021,"toyota",1500)
+v2=Voiture("A124",2024,"BMW",1800)
+v3=Voiture("C154",2023,"Ford",1600)
+
 
 
 
