@@ -15,3 +15,15 @@ class Employe:
             print("voiture service")
             self.voitureService.afficher_informations()
 
+    def affecter_voiture(self, voiture):
+        if self.voitureService is  not None:
+            print("cet employe possede deja une voiture")
+        elif voiture.chauffeur is not None:
+            print("cette voiture est deja assigne a un autre employe")
+        else:
+            self.voitureService=voiture
+            voiture.chauffeur= self
+            print("voiture attribuee avec succes")
+
+
+
