@@ -78,6 +78,11 @@ e2.afficher_informations()
 e1.retirer_voiture()
 e1.afficher_informations()
 
+#affecter la 2em voiture au 1er employe qui est  deja affectuer a une autre
+e1.affecter_voiture(v2)
+
+
+
 
 
 
