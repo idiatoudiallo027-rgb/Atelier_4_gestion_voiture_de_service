@@ -68,6 +68,13 @@ v1.afficher_informations_voiture()
 v2.afficher_informations_voiture()
 v3.afficher_informations_voiture()
 
+#affecter 2 voitures a deux employes et afficher leurs informations
+e1.affecter_voiture(v1)
+e2.affecter_voiture(v2)
+e1.afficher_informations()
+e2.afficher_informations()
+
+
 
 
 
