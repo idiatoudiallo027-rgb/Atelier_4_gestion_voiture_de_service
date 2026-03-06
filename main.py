@@ -23,7 +23,7 @@ class Employe:
         else:
             self.voitureService=voiture
             voiture.chauffeur= self
-            print("voiture attribuee avec succes")
+            print(f"voiture: {voiture.matricule} attribuee a {self.Nom},{self.Prenom}")
 
     def retirer_voiture(self):
         if self.voitureService is None:
