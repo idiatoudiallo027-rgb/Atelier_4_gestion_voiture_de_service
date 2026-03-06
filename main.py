@@ -74,6 +74,10 @@ e2.affecter_voiture(v2)
 e1.afficher_informations()
 e2.afficher_informations()
 
+#retrait de voiture du premier employe et affichage de ses informations
+e1.retirer_voiture()
+e1.afficher_informations()
+
 
 
 
